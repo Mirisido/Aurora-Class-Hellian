@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<!--Cantrips-->
+	<append id="ID_PHB_SPELL_CHILL_TOUCH">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DANCING_LIGHTS">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FIRE_BOLT">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LIGHT">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MESSAGE">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MINOR_ILLUSION">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAY_OF_FROST">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_THAUMATURGY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TRUE_STRIKE">
+		<supports>Illrigger</supports>
+	</append>
+	
+	<!--1st-->
+	<append id="ID_PHB_SPELL_CHARM_PERSON">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COLOR_SPRAY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMMAND">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DETECT_MAGIC">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISGUISE_SELF">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HELLISH_REBUKE">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SHIELD_OF_FAITH">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SILENT_IMAGE">
+		<supports>Illrigger</supports>
+	</append>
+	
+	
+	<!--2nd-->
+	<append id="ID_PHB_SPELL_AUGURY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BLUR">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DARKNESS">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_ENTHRALL">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_PERSON">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_INVISIBILITY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_LESSER_RESTORATION">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_SUGGESTION">
+		<supports>Illrigger</supports>
+	</append>
+	
+	<!--3rd-->
+	<append id="ID_PHB_SPELL_DISPEL_MAGIC">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FEAR">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_FLY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MAJOR_IMAGE">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTOM_STEED">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REMOVE_CURSE">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_REVIVIFY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_TONGUES">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_VAMPIRIC_TOUCH">
+		<supports>Illrigger</supports>
+	</append>
+	
+	<!--4th-->
+	<append id="ID_PHB_SPELL_BANISHMENT">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_BLIGHT">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DEATH_WARD">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DIMENSION_DOOR">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DIVINATION">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+		<supports>Illrigger</supports>
+	</append>
+	
+	<!--5th-->
+	<append id="ID_PHB_SPELL_AURA_OF_DESECRATION">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_CONTACT_OTHER_PLANE">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_DREAM">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_HOLD_MONSTER">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MISLEAD">
+		<supports>Illrigger</supports>
+	</append>
+	
+	<!--6th-->
+	<append id="ID_PHB_SPELL_CIRCLE_OF_DEATH">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_MASS_SUGGESTION">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PLANAR_ALLY">
+		<supports>Illrigger</supports>
+	</append>
+	<append id="ID_PHB_SPELL_PROGRAMMED_ILLUSION">
+		<supports>Illrigger</supports>
+	</append>
+	
+	
+	
+	
+	<!--New Spells-->
+	<element name="Hell's Lash" type="Spell" source="MCDM" id="ID_MCDM_SPELL_HELLS_LASH">
+    <supports>Illrigger</supports>
+    <description>
+      <p>You produce a whip of red electric energy that lashes out at a creature within range, creating a conduit between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d10 fire damage, and on each of your turns for the duration you can use your action to deal 1d10 fire damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell’s range or if it has total cover from you. If the target has one of your seals on it, the infernal whip deals its maximum damage.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d10 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords">lash</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">the forked tongue of a serpent</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Single Combat" type="Spell" source="MCDM" id="ID_MCDM_SPELL_SINGLE_COMBAT">
+    <supports>Illrigger</supports>
+    <description>
+		<p>You offer a creature a challenge they might not be able to resist. If you have no allies adjacent to you, choose one creature within range who can see and hear you. They must make a Charisma saving throw. On a failed save, the creature falls for your ruse and must fight you. For the duration, they have disadvantage on attacks that do not include you, and must succeed on a Charisma save against your spellcasting DC each time they try to move away from you.</p>
+		<p class="indent">This spell ends if you attack any other creature, if you cast a spell that doesn’t include the creature as a target, if an ally damages the target or targets them with a spell, or if you end your turn more than 30 feet away from the target. The spell also ends if any of your allies end their turn adjacent to you.</p>
+    </description>
+    <setters>
+      <set name="keywords">combat</set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Mote of Hell" type="Spell" source="MCDM" id="ID_MCDM_SPELL_HELLS_MOTE_OF_HELL">
+    <supports>Illrigger</supports>
+    <description>
+      <p>You manifest a mote of Hell on the Mundane World. A 15-foot-radius sphere of darkness, brimstone, and blasting heat arrives, centered on a point within range and lasting for the duration of the spell. The cloud of hellfire echoes with the cries of damned souls that can be heard by anyone within 30 feet of the cloud.</p>
+      <p class="indent">No light, even magical light, can illuminate the area, and any creatures fully within the area are blinded. The cloud warps the timescape and the area is difficult terrain. Any creature that starts its turn in the area takes 2d6 fire damage. Any creature that ends its turn in the area must succeed on a Wisdom saving throw or take 2d6 psychic damage as the voices of the damned crowd their mind.</p>
+      <p class="indent">Devils are immune to this damage, can see through the darkness, and regain 2d6 hit points if they start their turn in this area.</p>
+    </description>
+    <setters>
+      <set name="keywords">mote</set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">150 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of sulfur</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Aura of Desecration" type="Spell" source="MCDM" id="ID_MCDM_SPELL_AURA_OF_DESECRATION">
+    <supports>Illrigger</supports>
+    <description>
+      <p>Life-defiling energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. When a creature enters the area or starts its turn there, it takes 1d6 necrotic damage and you regain hit points equal to the damage dealt.</p>
+    </description>
+    <setters>
+      <set name="keywords">aura</set>
+      <set name="level">5</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">Self (30-foot radius)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  
+  <element name="Wall of Death" type="Spell" source="MCDM" id="ID_MCDM_SPELL_WALL_OF_DEATH">
+    <supports>Illrigger</supports>
+    <description>
+      <p>You create a wall of necrotic energy on a solid surface within range. You can make a wall up to 60 feet long, 20 feet high, and 1 foot thick, or can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Constitution saving throw. On a failed save, a creature takes 5d8 necrotic damage and the first time it drops to 0 hit points within the next minute, it instantly fails a death saving throw; on a successful save, it takes half as much damage without the other effect. You regain hit points equal to half the amount of necrotic damage dealt. One side of the wall, selected by you when you cast this spell, deals 5d8 necrotic damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p>
+    </description>
+    <setters>
+      <set name="keywords">wall</set>
+      <set name="level">5</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small piece of phosphorus</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>

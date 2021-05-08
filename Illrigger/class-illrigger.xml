@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Illrigger" type="Class" source="MCDM" id="ID_MCDM_CLASS_ILLRIGGER">
+        <description>
+			<p>The archdevils who rule the Seven Cities of Hell scheme and plot endlessly, eternally. Each seeks to bring the others to heel. To ascend to the Throne of Hell, unite the seven cities and every infernal thing that lives there, and lead an infinite army of devils across the timescape until all worlds burn.</p>
+			<p class="indent">Their elite shock troops, the terror-commandos of Hell, are the illriggers. Knights of Hell, they are charismatic counter-paladins who master devils, disrupt enemy organizations, and command Hell’s armies.</p>
+			<h4>THE ORDER OF DESOLATION</h4>
+            <p>Millennia ago, the Lords of Hell did something remarkable: they cooperated. They came together to create the Order of Desolation, knights sworn to serve Hell first, their patron archdevil second.</p> <p class="indent">Acceptance into the Order of Desolation makes you a comrade with every other illrigger, regardless of which archdevil you serve. Each archdevil has churches, underground fanes, secret societies, cults. All with leaders manically devoted to the archdevil who grants them their power. But this association of illriggers consider themselves above the petty political squabbles that divide the seven cities.</p>
+			<p class="indent">Members of the Order of Desolation, also known as the Desolate, are expected to be intelligent, resourceful, tactical, manipulative. A temple or cult might conclude that the presence of an illrigger in their midst is a sign that their archdevil approves of their actions, but the illriggers are independent. The order was founded to give the Lords of Hell agents capable of acting across the timescape, free from the direct control of their patron. An illrigger has many powerful abilities granted by their archdevil, but more precious is their patron’s trust. Left to their own devices, the illrigger is expected to sow discord, pain, strife, deceit, and fear without instruction or supervision.</p>
+			<p class="indent">It is not unusual, therefore, for a member of the Order of Desolation to rely on other members of the order first, even from illriggers who serve other archdevils, before going to any church, cult, or temple devoted to their own archdevil.</p>
+			<h3>CLASS FEATURES</h3>
+            <p>As an Illrigger, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+			<p>
+                <span class="emphasis">Hit Dice:</span>1d10 per illrigger level
+                <br />
+                <span class="emphasis">Hit Points at 1st Level:</span>10 + your Constitution modifier
+                <br />
+                <span class="emphasis">Hit Points at Higher Levels:</span>1d10 (or 6) + your Constitution modifier per illrigger level after 1st
+            </p>
+            <h5>PROFICIENCIES</h5>
+            <p>
+                <span class="emphasis">Armor:</span>Light armor, medium armor, shields 
+                <br />
+                <span class="emphasis">Weapons:</span>Simple weapons, martial weapons 
+                <br />
+                <span class="emphasis">Tools:</span>None 
+            </p>
+            <p>
+                <span class="emphasis">Saving Throws:</span>Constitution, Charisma 
+                <br />
+                <span class="emphasis">Skills:</span>Choose two skills from Arcana, Athletics, Decption, Insight, Intimidation, Investigation, Persuasion, and Religion 
+            </p>
+            <h5>EQUIPMENT</h5>
+            <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+            <ul>
+                <li>
+                    <i>(a)</i> a martial weapon and a shield or 
+                    <i>(b)</i> two martial weapons 
+                </li>
+                <li>
+                    <i>(a)</i> a chain shirt or 
+                    <i>(b)</i> leather armor, longbow, and 20 arrows 
+                </li>
+                <li>
+                    <i>(a)</i> priest's pack or 
+                    <i>(b)</i> a dungeoneer's pack 
+                </li>
+                <li> a holy symbol, two daggers, and five javelins </li>
+            </ul>
+			<h5 class="caption">THE ILLRIGGER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-15">Proficiency Bonus</td><td class="left">Features</td><td class="col-20">Infernal Conduit Dice</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>+2</td><td class="left">Forked Tongue, Infernal Conduit</td><td>1</td></tr>
+				<tr><td> 2nd</td><td>+2</td><td class="left">Fighting Style, Baleful Interdict</td><td>1</td></tr>
+				<tr><td> 3rd</td><td>+2</td><td class="left">Hellsight, Diabloic Contract</td><td>2</td></tr>
+				<tr><td> 4th</td><td>+2</td><td class="left">Ability Score Improvement</td><td>2</td></tr>
+				<tr><td> 5th</td><td>+3</td><td class="left">Extra Attack</td><td>3</td></tr>
+				<tr><td> 6th</td><td>+3</td><td class="left">Baleful Interdict Improvement</td><td>3</td></tr>
+				<tr><td> 7th</td><td>+3</td><td class="left">Diabolic Contract Improvement</td><td>4</td></tr>
+				<tr><td> 8th</td><td>+3</td><td class="left">Ability Score Improvement</td><td>4</td></tr>
+				<tr><td> 9th</td><td>+4</td><td class="left">Diabolic Contract Improvement</td><td>5</td></tr>
+				<tr><td>10th</td><td>+4</td><td class="left">Baleful Interdict Improvement</td><td>5</td></tr>
+				<tr><td>11th</td><td>+4</td><td class="left">Improved Infernal Conduit</td><td>6</td></tr>
+				<tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td><td>6</td></tr>
+				<tr><td>13th</td><td>+5</td><td class="left">Diabolic Contract Improvement</td><td>7</td></tr>
+				<tr><td>14th</td><td>+5</td><td class="left">Aura of Despair</td><td>7</td></tr>
+				<tr><td>15th</td><td>+5</td><td class="left">Summon Hell</td><td>8</td></tr>
+				<tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td><td>8</td></tr>
+				<tr><td>17th</td><td>+6</td><td class="left">Diabolic Contract Improvement</td><td>9</td></tr>
+				<tr><td>18th</td><td>+6</td><td class="left">Baleful Interdict Improvement</td><td>9</td></tr>
+				<tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td><td>10</td></tr>
+				<tr><td>20th</td><td>+6</td><td class="left">Infernal Contract Improvement</td><td>10</td></tr>
+			</table>
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FORKED_TONGUE" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_INFERNAL_CONDUIT" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTING_STYLE" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_BALEFUL_INTERDICT" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_HELLSIGHT" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_DIABOLIC_CONTRACT" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_ABILITY_SCORE_IMPROVEMENT" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_EXTRA_ATTACK" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_AURA_OF_DESPAIR" />
+			<div element="ID_MCDM_CLASS_FEATURE_ILLRIGGER_SUMMON_HELL" />
+		</description>
+		<setters>
+            <set name="short">A charismatic counter-paladin who masters devils.</set>
+            <set name="hd">d10</set>
+        </setters>
+		<sheet display="false" />
+		<rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <select type="Proficiency" name="Skill Proficiency (Illrigger)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_RELIGION" number="2" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER"/>
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FORKED_TONGUE" level="1" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_INFERNAL_CONDUIT" level="1" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTING_STYLE" level="2" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_BALEFUL_INTERDICT" level="2" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_HELLSIGHT" level="3" />
+			<grant type="Class Feature" id=
+			"ID_MCDM_CLASS_FEATURE_ILLRIGGER_DIABOLIC_CONTRACT" level="3" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_ABILITY_SCORE_IMPROVEMENT" level="4" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_AURA_OF_DESPAIR" level="14" />
+            <grant type="Class Feature" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_SUMMON_HELL" level="15" />
+        </rules>
+		<multiclass id="ID_MCDM_MULTICLASS_ILLRIGGER">
+            <prerequisite>Charisma 13 and Strength 13 or Dexterity 13</prerequisite>
+            <requirements>([str:13]||[dex:13]),[chr:13],!ID_DMSG_MMBH_CLASS_ILLRIGGER,!ID_DMSG_MMBH_MULTICLASS_ILLRIGGER</requirements>
+            <setters>
+                <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
+            </setters>
+            <rules>
+                <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+            </rules>
+        </multiclass>
+	</element>
+	
+	<!--Class Features-->
+	<element name="Forked Tongue" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FORKED_TONGUE">
+		<description>
+			<p>You have a facility with speech and know how to manipulate an audience. Whenever you make an ability check to persuade, deceive, or intimidate, you can treat a d20 roll of 7 or lower as an 8. Additionally you learn the Infernal language.</p>
+		</description>
+		<sheet>
+			<description>
+				Whenever you make an ability check to persuade, deceive, or intimidate, you can treat a d20 roll of 7 or lower as an 8.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_INFERNAL" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+		</rules>
+	</element>
+	<element name="Infernal Conduit" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_INFERNAL_CONDUIT">
+		<description>
+			<p>There is a pool of infernal power within you that replenishes after you take a long rest. This pool is represented by dice, starting with 1d10 at 1st level. Your pool gains dice as shown on the Illrigger table. With these dice you can transfer hit points between your illrigger and other targets, healing allies at the expense of your own health or draining the life force of enemies to rejuvenate your own vitality.</p>
+			<P class="indent">As an action, choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. If you miss, nothing happens—you do not roll or lose dice from your pool. If you hit, or if you’re targeting a willing creature, roll the chosen dice.</P>
+			<P class="indent">The result of your roll is the number of hit points you transfer. If you’re touching an ally, they gain that many hit points, ignoring any hit points in excess of their maximum. You lose hit points equal to the number of hit points they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.</P>
+			<P class="indent">If you’re touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you would gain hit points in excess of your maximum, you gain that number of temporary hit points instead.</P>
+			<P class="indent">Beginning at 11th level, in addition to draining the life force of an enemy, you can also inflict one level of exhaustion on them. They may recover this exhaustion normally. This ability does not work if the target already has three or more levels of exhaustion, or if you have no dice left in your pool, and you cannot choose to inflict exhaustion insteadof draining life.</P>
+		</description>
+		<sheet action="Action" usage="{{illrigger infernal conduit:count}}d10/Long Rest">
+			<description>
+				Choose a number of dice from your remaining pool and touch another creature. If they are unwilling, this is a melee spell attack with which you are proficient, using Charisma as your spellcasting ability. If you miss, nothing happens—you do not roll or lose dice from your pool. If you hit, or if you’re targeting a willing creature, roll the chosen dice.
+				The result of your roll is the number of hit points you transfer. If you’re touching an ally, they gain that many hit points, ignoring any hit points in excess of their maximum. You lose hit points equal to the number of hit points they gained. If your sacrifice reduces you to 0 hit points, you fall unconscious.
+				If you’re touching an enemy, they take necrotic damage equal to your roll, and you gain that many hit points. If you would gain hit points in excess of your maximum, you gain that number of temporary hit points instead.
+				Beginning at 11th level, in addition to draining the life force of an enemy, you can also inflict one level of exhaustion on them. They may recover this exhaustion normally. This ability does not work if the target already has three or more levels of exhaustion, or if you have no dice left in your pool, and you cannot choose to inflict exhaustion insteadof draining life.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="illrigger infernal conduit:count" value="1" level="1" />
+			<stat name="illrigger infernal conduit:count" value="1" level="3" />
+			<stat name="illrigger infernal conduit:count" value="1" level="5" />
+			<stat name="illrigger infernal conduit:count" value="1" level="7" />
+			<stat name="illrigger infernal conduit:count" value="1" level="9" />
+			<stat name="illrigger infernal conduit:count" value="1" level="11" />
+			<stat name="illrigger infernal conduit:count" value="1" level="13" />
+			<stat name="illrigger infernal conduit:count" value="1" level="15" />
+			<stat name="illrigger infernal conduit:count" value="1" level="17" />
+			<stat name="illrigger infernal conduit:count" value="1" level="19" />
+		</rules>
+	</element>
+	<element name="Fighting Style" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTING_STYLE">
+		<description>
+			<p>At 2nd level, you choose an illrigger fighting style:</p>
+			<h5 class="caption">TREACHERY</h5>
+			<p>When you attack an enemy who has none of your allies adjacent to it, you gain a +3 bonus to damage rolls.</p>
+			<h5 class="caption">BRAVADO</h5>
+			<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier. You can use a shield and still gain this benefit.</p>
+			<h5 class="caption">SCHEMES</h5>
+			<p>While you wield a melee weapon in one hand and no other weapons, you can use your reaction after an adjacent enemy attacks you to move into any other unoccupied space within five feet of the attacking enemy. This movement does not provoke an opportunity attack.</p>
+			<h5 class="caption">LIES</h5>
+			<p>When you attack with a two-handed melee weapon, you can use your Charisma modifier, instead of your Strength modifier, for both the attack and damage rolls.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Fighting Style, Illrigger" supports="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_TREACHERY|ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_BRAVADO|ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_SCHEMES|ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_LIES" />
+		</rules>
+	</element>
+	<element name="Baleful Interdict" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_BALEFUL_INTERDICT">
+		<description>
+			<p>When you reach 2nd level, you learn to use the power of Hell to censure other creatures. As a bonus action, you can place a seal on a target you can see within 30 feet. You can do this a number of times equal to your Charisma modifier. When you finish a short or long rest, you regain all your seals.</p>
+			<P class="indent">When you or an ally hits a target you can see with any seals on it, you can consume the seals to make the attack deal an extra 2d6 necrotic damage to the target per seal consumed. If you are within 30 feet of the target, you regain 2 hit points for each die of damage your seals deals.</P>
+			<P class="indent">A creature with a seal on them is an interdicted creature</P>
+			<P class="indent">Seals evaporate if not used after 1 minute. Only the illrigger who placed the seal knows it’s there; it appears to the illrigger as a glowing glyph on the creature’s forehead. If a creature with any of your seals on it dies, you can move all of its seals to another creature within range.</P>
+			<P class="indent">When you reach 10th level, you feel your connection to your archdevil increase. Your seals deal an extra 1d6 damage.</P>
+			<P class="indent">Your seals improve differently based on which contract you choose. These improvements are listed under “Diabolic Contract,” below.</P>
+		</description>
+		<sheet action="Bonus Action" usage="{{charisma:modifier}}/Short Rest">
+			<description>
+				You can place a seal on a target you can see within 30 feet.
+				When you or an ally hits a target you can see with any seals on it, you can consume the seals to make the attack deal an extra {{illrigger seals:count}}d6 necrotic damage to the target per seal consumed. If you are within 30 feet of the target, you regain 2 hit points for each die of damage your seals deals.
+				Seals evaporate if not used after 1 minute. Only the illrigger who placed the seal knows it’s there. If a creature with any of your seals on it dies, you can move all of its seals to another creature within range.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="illrigger seals:count" value="2" level="1" />
+			<stat name="illrigger seals:count" value="1" level="10" />
+		</rules>
+	</element>
+	<element name="Hellsight" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_HELLSIGHT">
+		<description>
+			<p>When you reach 3rd level, your mastery of deception makes it easy for you to recognize the use of concealing sorcery. As an action, you extend your awareness out from you. Until the end of your next turn, you know the location of creatures within 60 feet using magic to hide or disguise themselves.</p>
+			<P class="indent">You can use this feature a number of times equal to your Charisma modifier. When you finish a long rest, you regain your expended uses.</P>
+		</description>
+		<sheet action="Action" usage="{{charisma:modifier}}/Long Rest">
+			<description>
+				Until the end of your next turn, you know the location of creatures within 60 feet using magic to hide or disguise themselves.
+			</description>
+		</sheet>
+	</element>
+	<element name="Diabolic Contract" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_DIABOLIC_CONTRACT">
+		<description>
+			<p>When you reach 3rd level, you sign a diabolic contract with your archdevil who welcomes you into the Order of Desolation. You gain the Invoke Authority ability and choose either Painkiller (Dispater), Shadowmaster (Moloch), or Architect of Ruin (Asmodeus) as your archdevil.</p>
+			<P class="indent">Furthermore, you are a noble knight in the lists of Hell and will be accorded fine treatment and hospitality anywhere in Hell you travel, even to cities ruled by enemy archdevils. More cosmopolitan cities in the timescape—like Alloy, the City of Brass—will also respect your noble rank.</P>
+			<h5 class="caption">INVOKE AUTHORITY</h5>
+			<p>You invoke the authority granted you by your archdevil, channelling baleful energy to fuel magical effects. Each Invoke Authority option provided by your archdevil explains how to use it. </p>
+			<P class="indent">When you use your Invoke Authority, you choose which option to use. Once you use this feature, you must finish a long rest to use it again.</P>
+		</description>
+		<sheet display="false">
+			<description>
+				You gain the Invoke Authority ability.
+			</description>
+		</sheet>
+		<rules>
+			<select type="Archetype" name="Diabolic Contract" supports="Diabolic Contract" />
+			<stat name="invoke authority:count" value="1" level="1" bonus="base" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_ABILITY_SCORE_IMPROVEMENT">
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false">
+			<description>When you reach 4th, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Illrigger,4" level="4" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Illrigger,8" level="8" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Illrigger,12" level="12" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Illrigger,16" level="16" />
+			<select type="Class Feature" name="Ability Score Improvement" supports="Improvement Option,Illrigger,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>
+				You can attack twice, instead of once, whenever you take the Attack action on your turn.
+			</description>
+		</sheet>
+	</element>
+	<element name="Aura of Despair" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_AURA_OF_DESPAIR">
+		<description>
+			<p>Beginning at 14th level, you radiate a magical aura of evil. Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the result.</p>
+		</description>
+		<sheet>
+			<description>
+				Whenever a hostile creature within 15 feet of you makes an attack roll or a saving throw, it must roll a d4 and subtract the number rolled from the result.
+			</description>
+		</sheet>
+	</element>
+	<element name="Summon Hell" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_SUMMON_HELL">
+		<description>
+			<p>Beginning at 15th level, as an action, you can summon a bone devil to serve you for 1 minute. The devil appears in an unoccupied space within 30 feet. It is bound to you and must obey your commands to the best of its ability. It acts on the same initiative that you act on, and may both act and move on the turn you summon it. If you die or fall unconscious, the devil returns to Hell. Once you use this feature, you must wait 1 week before you can use it again.</p>
+		</description>
+		<sheet action="Action" usage="1/Week">
+			<description>
+				You can summon a bone devil to serve you for 1 minute. The devil appears in an unoccupied space within 30 feet. It is bound to you and must obey your commands to the best of its ability. It acts on the same initiative that you act on, and may both act and move on the turn you summon it. If you die or fall unconscious, the devil returns to Hell. Once you use this feature, you must wait 1 week before you can use it again.
+			</description>
+		</sheet>
+	</element>
+	
+	<!--Fighting Styles-->
+	<element name="Treachery" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_TREACHERY">
+		<description>
+			<p>When you attack an enemy who has none of your allies adjacent to it, you gain a +3 bonus to damage rolls.</p>
+		</description>
+		<sheet>
+			<description>When you attack an enemy who has none of your allies adjacent to it, you gain a +3 bonus to damage rolls.</description>
+		</sheet>
+	</element>
+	<element name="Bravado" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_BRAVADO">
+		<description>
+			<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier. You can use a shield and still gain this benefit.</p>
+		</description>
+		<sheet>
+			<description>While you are not wearing any armor, your Armor Class equals {{ac:bravado defense illrigger}}. You can use a shield and still gain this benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:bravado defense illrigger:base" value="10" />
+			<stat name="ac:bravado defense illrigger:dexterity" value="dexterity:modifier" />
+			<stat name="ac:bravado defense illrigger:charisma" value="charisma:modifier" />
+
+			<stat name="ac:bravado defense illrigger" value="ac:bravado defense illrigger:base" />
+			<stat name="ac:bravado defense illrigger" value="ac:bravado defense illrigger:dexterity" />
+			<stat name="ac:bravado defense illrigger" value="ac:bravado defense illrigger:charisma" />
+
+			<stat name="ac:calculation" value="ac:bravado defense illrigger" bonus="calculation" equipped="[armor:none]" alt="Bravado Fighting Style" />
+		</rules>
+	</element>
+	<element name="Schemes" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_SCHEMES">
+		<description>
+			<p>While you wield a melee weapon in one hand and no other weapons, you can use your reaction after an adjacent enemy attacks you to move into any other unoccupied space within five feet of the attacking enemy. This movement does not provoke an opportunity attack.</p>
+		</description>
+		<sheet>
+			<description>While you wield a melee weapon in one hand and no other weapons, you can use your reaction after an adjacent enemy attacks you to move into any other unoccupied space within five feet of the attacking enemy. This movement does not provoke an opportunity attack.</description>
+		</sheet>
+	</element>
+	<element name="Lies" type="Class Feature" source="MCDM" id="ID_MCDM_CLASS_FEATURE_ILLRIGGER_FIGHTINGSTYLE_LIES">
+		<description>
+			<p>When you attack with a two-handed melee weapon, you can use your Charisma modifier, instead of your Strength modifier, for both the attack and damage rolls.</p>
+		</description>
+		<sheet>
+			<description>When you attack with a two-handed melee weapon, you can use your Charisma modifier, instead of your Strength modifier, for both the attack and damage rolls.</description>
+		</sheet>
+	</element>
+	
+	<!--Diabolic Contracts-->
+	<!--Painkiller-->
+	<element name="Painkiller" type="Archetype" source="MCDM" id="ID_MCDM_ARCHETYPE_ILLRIGGER_PAINKILLER">
+		<supports>Diabolic Contract</supports>
+		<description>
+			<p>Dispater is the Lord of Dis, the City of War. When Hell invades another world, Dispater’s army does the fighting and the dying. His Painkillers are master strategists who lead from the front, inspiring terror and awe in their soldiers. They are full of pride and hubris and present themselves as lordly, often having a fastidious obsession with their personalappearance.</p>
+			<P class="indent">The Painkillers are among the most chivalrous of the illriggers, but theirs is a twisted chivalry. They will accept and honor a challenge to single combat, and swiftly punish any who try to interfere. But they will cheat if losing and toy with an enemy before finishing them if winning.</P>
+			<P class="indent">In a moment of weakness or desperation, a ruler in another World might see their army facing certain defeat and call upon Dispater. Seeing the opportunity to sow strife and discord, Dispater might send a Painkiller to lead the desperate lord’s armies.</P>
+			<h5 class="caption">TENETS OF PAIN</h5>
+			<p>The Painkillers swear an oath to Dispater when they join the Order of Desolation. The oath commits them to lead Hell’s armies and wage war against Good across the timescape.</p>
+			<p class="indent"><strong><em>Lead from the Front.</em></strong> I am at the front of every battle. I charge in, inspiring my soldiers and causing fear in my enemy. I will not use stealth nor hide my face. Let them see their doom.</p>
+			<p class="indent"><strong><em>Commander.</em></strong> Wherever I go, I command. I give orders, I do not take them.</p>
+			<p class="indent"><strong><em>Victory at Any Cost.</em></strong> I respect the enemy leader and will treat them honorably. But once swords are drawn I will use every tool and trick in my arsenal to win, and they should do the same.</p>
+			<p class="indent"><strong><em>Soldiers Die.</em></strong> I care not for the lives of my soldiers, for they exist to serve my victory. They are resources to be spent.</p>
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_BONUS_PROFICIENCIES" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_BY_THE_THROAT" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_TELEKINETIC_SEAL" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_YOU_DIE_ON_MY_COMMAND" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_STEELMIND" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_PAIN_DEVIL" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INTERDICT_IMPROVEMENTS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_BONUS_PROFICIENCIES" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_BY_THE_THROAT" level="7" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_TELEKINETIC_SEAL" level="9" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_YOU_DIE_ON_MY_COMMAND" level="13" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_STEELMIND" level="17" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_PAIN_DEVIL" level="20" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INTERDICT_IMPROVEMENTS" />
+		</rules>
+	</element>
+	<element name="Invoke Authority" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY">
+		<description>
+			<p>Dispater’s heavy shock troops must be effective battlefield commanders, and quickly dispatch enemies.</p>
+			<p class="indent"><b><i>Invoke Authority: Devastator</i></b> As an action, you invoke the authority of Dispater. A number of allies equal to your Charisma modifier, whom you can see within 60 feet, and you, may use a reaction to make one weapon attack.</p>
+			<p class="indent"><b><i>Invoke Authority: Infernal Surge</i></b> Upon invoking Dispater’s authority, you gain an extra action in addition to your normal action and any possible bonus action.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INVOKE_AUTHORITY_DEVASTATOR" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY_INFERNAL_SURGE" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_BONUS_PROFICIENCIES">
+		<description>
+			<p>When you choose Dispater as your archdevil, you gain proficiency with heavy armor.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER" />
+		</rules>
+	</element>
+	<element name="By the Throat" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_BY_THE_THROAT">
+		<description>
+			<p>Starting at 7th level, you can, as an action, place a seal on an enemy within 30 feet. If they are Large or smaller, they must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be grappled (escape DC 15), and the target is restrained until the grapple ends.</p>
+		</description>
+		<sheet action="Action">
+			<description>Place a seal on an enemy within 30 feet. If they are Large or smaller, they must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be grappled (escape DC 15), and the target is restrained until the grapple ends.</description>
+		</sheet>
+	</element>
+	<element name="Invoke Authority: Devastator" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INVOKE_AUTHORITY_DEVASTATOR">
+		<description>
+			<p>As an action, you invoke the authority of Dispater. A number of allies equal to your Charisma modifier, whom you can see within 60 feet, and you, may use a reaction to make one weapon attack.</p>
+		</description>
+		<sheet alt="Devastator" action="Action" usage="Invoke Authority">
+			<description>A number of allies equal to your Charisma modifier, whom you can see within 60 feet, and you, may use a reaction to make one weapon attack.</description>
+		</sheet>
+	</element>
+	<element name="Invoke Authority: Infernal Surge" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY_INFERNAL_SURGE">
+		<description>
+			<p>Upon invoking Dispater’s authority, you gain an extra action in addition to your normal action and any possible bonus action.</p>
+		</description>
+		<sheet alt="Infernal Surge" usage="Invoke Authority">
+			<description>You gain an extra action in addition to your normal action and any possible bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Telekinetic Seal" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_TELEKINETIC_SEAL">
+		<description>
+			<p>Starting at 9th level, you can, as a reaction to an enemy moving into a space adjacent to you, place a seal on them. If you do, they must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). If they fail, they are thrown back 30 feet and knocked prone.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>
+				When an enemy moves into a space adjacent to you, place a seal on them. If you do, they must make a DC{{telekinetic seal illrigger}} Wisdom saving throw. If they fail, they are thrown back 30 feet and knocked prone.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="telekinetic seal illrigger:base" value="8" />
+			<stat name="telekinetic seal illrigger:charisma" value="charisma:modifier" />
+			<stat name="telekinetic seal:proficiency" value="proficiency" />
+			
+			<stat name="telekinetic seal illrigger" value="telekinetic seal illrigger:base" />
+			<stat name="telekinetic seal illrigger" value="telekinetic seal illrigger:charisma" />
+			<stat name="telekinetic seal illrigger" value="telekinetic seal:proficiency" />
+		</rules>
+	</element>
+	<element name="You Die On My Command" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_YOU_DIE_ON_MY_COMMAND">
+		<description>
+			Starting at 13th level, when an ally within 30 feet who can hear you drops to 0 hit points but is not outright killed, you can use your reaction to shout an order at them, causing them to drop to 1 hit point instead. You cannot use this feature again until you complete a short or long rest.
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>
+				when an ally within 30 feet who can hear you drops to 0 hit points but is not outright killed, you can use your reaction to shout an order at them, causing them to drop to 1 hit point instead.
+			</description>
+		</sheet>
+	</element>
+	<element name="Steelmind" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_STEELMIND">
+		<description>
+			Starting at 17th level, you gain advantage on Wisdom saving throws against spells and enemy abilities.
+		</description>
+		<sheet>
+			<description>
+				You have advantage on Wisdom saving throws against spells and enemy abilities.
+			</description>
+		</sheet>
+	</element>
+	<element name="Pain Devil" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_PAIN_DEVIL">
+		<description>
+			<p>Starting at 20th level, you can use your action to become a pain devil for 1 minute. Your size becomes Large. You gain +3 to hit and damage with melee weapons. You gain 100 temporary hit points.</p> 
+			<p class="indent">You emanate an aura of pain that forces every enemy starting their turn within 20 feet of you to make a DC 16 Constitution saving throw or suffer 4d12 force damage on a failed save (half that on a successful saving throw) as wounds in their flesh spontaneously open. Once a creature saves, they are immune to this ability for 24 hours.</p>
+			<p class="indent">While in this form, your type becomes fiend (devil) and Hell is your home plane. You cannot use this feature again until you complete a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>
+				You become a pain devil for 1 minute. Your size becomes Large. You gain +3 to hit and damage with melee weapons. You gain 100 temporary hit points. 
+				You emanate an aura of pain that forces every enemy starting their turn within 20 feet of you to make a DC 16 Constitution saving throw or suffer 4d12 force damage on a failed save (half that on a successful saving throw) as wounds in their flesh spontaneously open. Once a creature saves, they are immune to this ability for 24 hours.
+				While in this form, your type becomes fiend (devil) and Hell is your home plane.
+			</description>
+		</sheet>
+	</element>
+	<element name="Interdict Improvements" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INTERDICT_IMPROVEMENTS">
+		<description>
+			<p>As your Painkiller levels up, Dispater’s interdiction carries more power.</p>
+			<p class="indent"><b><i>I Am Death.</i></b> At 6th level, after placing a seal on a creature, your attacks against that creature have advantage until the end of your turn.</p>
+			<p class="indent"><b><i>Hell’s Fury.</i></b> At 10th level, the bonus action you use to place a seal on a creature now also grants you a weapon attack against them.</p>
+			<p class="indent"><b><i>Deathstrike.</i></b> At 18th level, when you consume a seal after a successful attack roll against an interdicted creature, you may use your reaction to make the attack score a critical hit.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_I_AM_DEATH" level="6" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HELLS_FURY" level="10" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_DEATHSTRIKE" level="18" />
+		</rules>
+	</element>
+	<element name="I Am Death" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_I_AM_DEATH">
+		<description>
+			<p> At 6th level, after placing a seal on a creature, your attacks against that creature have advantage until the end of your turn.</p>
+		</description>
+		<sheet>
+			<description>
+				After placing a seal on a creature, your attacks against that creature have advantage until the end of your turn.
+			</description>
+		</sheet>
+	</element>
+	<element name="Hell's Fury" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HELLS_FURY">
+		<description>
+			<p>At 10th level, the bonus action you use to place a seal on a creature now also grants you a weapon attack against them.</p>
+		</description>
+		<sheet>
+			<description>
+				The bonus action you use to place a seal on a creature now also grants you a weapon attack against them.
+			</description>
+		</sheet>
+	</element>
+	<element name="Deathstrike" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_DEATHSTRIKE">
+		<description>
+			<p>At 18th level, when you consume a seal after a successful attack roll against an interdicted creature, you may use your reaction to make the attack score a critical hit.</p>
+		</description>
+		<sheet>
+			<description>
+				When you consume a seal after a successful attack roll against an interdicted creature, you may use your reaction to make the attack score a critical hit.
+			</description>
+		</sheet>
+	</element>
+	
+	<!--Shadowmaster-->
+	<element name="Shadowmaster" type="Archetype" source="MCDM" id="ID_MCDM_ARCHETYPE_ILLRIGGER_SHADOWMASTER">
+		<supports>Diabolic Contract</supports>
+		<description>
+			<p>Moloch is the Lord of Styx, the City of Lies. He strives to rule Hell through subterfuge, deceit, and trickery. His illriggers are assassins, striking from the shadows or using deception to earn high-ranking positions close to powerful rulers. Many Shadowmasters run networks of spies and assassins who have no idea of the infernal provenance of their master.</p>
+			<P class="indent">The Shadowmasters are sworn not to reveal themselves and to take their own lives before betraying their true allegiance. Many Shadowmasters have elaborate plans ready for their own assassination so that, should someone get close to discovering their true identity, they will be killed by their own assassins, preserving the truth. Of course, these killers have no idea who they were really working for…</P>
+			<h5 class="caption">TENETS OF SHADOW</h5>
+			<p>The Shadowmasters swear an oath to Moloch when they join the Order of Desolation. The oath commits them to serve Moloch’s foes as allies before revealing themselves as enemies.</p>
+			<p class="indent"><strong><em>Plans Within Plans.</em></strong> My enemies must never discover my true goals. I will sacrifice myself to protect my schemes.</p>
+			<p class="indent"><strong><em>Create Chaos.</em></strong> Disorder is my goal. Where there is peace, I will create strife. Where there is certainty, I will create doubt. If there is war, it must never end.</p>
+			<p class="indent"><strong><em>Power in Patience.</em></strong> I will study my enemy. I will prepare, research, slowly build trust, so that my loyalty is unquestioned and any thought of my betraying my lord unthinkable.</p>
+			<p class="indent"><strong><em>Hesitation Is Failure.</em></strong> I am perfectly willing and able to kill swiftly and efficiently should the need arise. I may rely on agents, but when the opportunity presents itself I will kill without hesitation.</p>
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_INVOKE_AUTHORITY" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_FLASH_OF_BRIMSTONE" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_BONUS_PROFICIENCIES" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_DAGGER_ADEPT" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_RELENTLESS" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_ONLY_A_MEMORY" />
+			<div element=
+			"ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_EVASION" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_SHADOWKILLER" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_SHADOWFORM" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_INTERDICT_IMPROVEMENTS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_INVOKE_AUTHORITY" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_FLASH_OF_BRIMSTONE" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_BONUS_PROFICIENCIES" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_DAGGER_ADEPT" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_RELENTLESS" level="7" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_ONLY_A_MEMORY" level="9" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_EVASION" level="13" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_SHADOWKILLER" level="17" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_SHADOWFORM" level="20" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_INTERDICT_IMPROVEMENTS" />
+		</rules>
+	</element>
+	<element name="Invoke Authority" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_INVOKE_AUTHORITY">
+		<description>
+			<p>Moloch’s elite assassins must be able to survive to get close to their enemies and quickly eliminate them.</p>
+			<p class="indent"><b><i>Invoke Authority: Fade</i></b> As an action, you can become invisible and can, as part of this action, attempt to take the Hide action. The invisibility ends after 1 minute or if you make an attack or cast a spell.</p>
+			<p class="indent"><b><i>Invoke Authority: Moloch's Blessing</i></b> As a bonus action, you can place all your remaining seals on a creature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INVOKE_AUTHORITY_FADE" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY_MOLOCHS_BLESSING" />
+		</rules>
+	</element>
+	<element name="Invoke Authority: Fade" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INVOKE_AUTHORITY_FADE">
+		<description>
+			<p>As an action, you can become invisible and can, as part of this action, attempt to take the Hide action. The invisibility ends after 1 minute or if you make an attack or cast a spell.</p>
+		</description>
+		<sheet alt="Fade" action="Action" usage="Invoke Authority">
+			<description>You can become invisible and can, as part of this action, attempt to take the Hide action. The invisibility ends after 1 minute or if you make an attack or cast a spell.</description>
+		</sheet>
+	</element>
+	<element name="Invoke Authority: Moloch's Blessing" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY_MOLOCHS_BLESSING">
+		<description>
+			<p>As a bonus action, you can place all your remaining seals on a creature.</p>
+		</description>
+		<sheet alt="Moloch's Blessing" action="Bonus Action" usage="Invoke Authority">
+			<description>You can place all your remaining seals on a creature.</description>
+		</sheet>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_BONUS_PROFICIENCIES">
+		<description>
+			<p>When you choose Moloch as your archdevil, you gain proficiency with Stealth, Acrobatics, and thieves’ tools.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" requirements="!ID_MCDM_MULTICLASS_ILLRIGGER" />
+		</rules>
+	</element>
+	<element name="Flash of Brimstone" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_FLASH_OF_BRIMSTONE">
+		<description>
+			<p>As a reaction to placing a seal on a target, you can teleport to an unoccupied space that you can see adjacent to the target. </p>
+		</description>
+		<sheet action="Reaction">
+			<description>When you place a seal on a target, you can teleport to an unoccupied space that you can see adjacent to the target.</description>
+		</sheet>
+	</element>
+	<element name="Dagger Adept" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_DAGGER_ADEPT">
+		<description>
+			<p>Your training makes you skilled with certain light weapons. While two-weapon fighting with daggers and/or sickles, you can add your ability modifier to the damage of the second attack, and you can draw or stow two daggers or sickles when you would normally be able to draw or stow only one.</p>
+			<p class="indent">At 5th level, your daggers and sickles do 1d6 damage. At 11th level, your daggers and sickles do 1d8 damage. At 17th level, your daggers and sickles do 1d10 damage.</p>
+		</description>
+		<sheet>
+			<description>While two-weapon fighting with daggers and/or sickles, you can add your ability modifier to the damage of the second attack, and you can draw or stow two daggers or sickles when you would normally be able to draw or stow only one.</description>
+		</sheet>
+	</element>
+	<element name="Relentless" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_RELENTLESS">
+		<description>
+			<p>At 7th level, your movement increases by 10 feet.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed:misc" value="10" bonus="relentless" />
+		</rules>
+	</element>
+	<element name="Only a Memory" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_ONLY_A_MEMORY">
+		<description>
+			<p>Starting at 9th level, your mastery of shadow grants you advantage on Dexterity (Stealth) checks when taking the Hide action, and Hide becomes a bonus action for you.</p>
+		</description>
+		<sheet>
+			<description>
+				You have advantage on Dexterity (Stealth) checks when taking the Hide action, and Hide becomes a bonus action for you.
+			</description>
+		</sheet>
+	</element>
+	<element name="Evasion" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_EVASION">
+		<description>
+			Starting at 13th level, when you are prompted to make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. 
+		</description>
+		<sheet>
+			<description>
+				When you are prompted to make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+			</description>
+		</sheet>
+	</element>
+	<element name="Shadowkiller" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_SHADOWKILLER">
+		<description>
+			At 17th level, you gain darkvision and can see normally in magical darkness. In addition you can see the exact location of any creatures within 60 feet using illusion spells to obfuscate their location, such as blur, mirror image, or invisibility.
+		</description>
+		<sheet>
+			<description>
+				You gain darkvision and can see normally in magical darkness. In addition you can see the exact location of any creatures within 60 feet using illusion spells to obfuscate their location, such as blur, mirror image, or invisibility.
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Shadowform" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_SHADOWFORM">
+		<description>
+			<p>Starting at 20th level, as an action, you can become a greater shadow for 1 minute. You gain damage resistance to acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing damage. You gain Incorporeal Movement and a flying speed of 50 feet. You can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object. Your weapon attacks deal necrotic damage, and successful attacks drain 1d4 Strength from the target. If this drain reduces the target’s Strength to 0, it dies. Otherwise, the drain lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later. You cannot use this feature again until you complete a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>
+				You become a greater shadow for 1 minute. 
+				You gain damage resistance to acid, cold, fire, lightning, thunder, bludgeoning, piercing, and slashing damage. You gain Incorporeal Movement and a flying speed of 50 feet. You can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if you end your turn inside an object. 
+				Your weapon attacks deal necrotic damage, and successful attacks drain 1d4 Strength from the target. If this drain reduces the target’s Strength to 0, it dies. Otherwise, the drain lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.
+			</description>
+		</sheet>
+	</element>
+	<element name="Interdict Improvements" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_SHADOWMASTER_INTERDICT_IMPROVEMENTS">
+		<description>
+			<p>As your shadowmaster levels up, Moloch’s interdiction carries more power.</p>
+			<p class="indent"><b><i>Marked for Death.</i></b> At 6th level, your connection to Moloch’s power deepens. If you hit an interdicted creature with a melee attack, you can mark them for death. The target has disadvantage on attack rolls that do not include you until the end of its next turn. While that creature is interdicted, it must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) whenever it tries to leave your reach. On a failure, its speed instead becomes 0 until the start of its next turn. These effects last until it is no longer interdicted, you leave its reach, or it leaves your reach.</p>
+			<p class="indent"><b><i>He Is the Darkness.</i></b> At 10th level, while within 10 feet of an interdicted enemy, shadows envelop you and you gain the benefits of half cover.</p>
+			<p class="indent"><b><i>Hell's Assassin.</i></b> At 18th level, your seals do 3d10 damage each, rather than 3d6.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_MARKED_FOR_DEATH" level="6" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HE_IS_THE_DARKNESS" level="10" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HELLS_ASSASSIN" level="18" />
+		</rules>
+	</element>
+	<element name="Marked for Death" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_MARKED_FOR_DEATH">
+		<description>
+			<p>At 6th level, your connection to Moloch’s power deepens. If you hit an interdicted creature with a melee attack, you can mark them for death. The target has disadvantage on attack rolls that do not include you until the end of its next turn. While that creature is interdicted, it must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) whenever it tries to leave your reach. On a failure, its speed instead becomes 0 until the start of its next turn. These effects last until it is no longer interdicted, you leave its reach, or it leaves your reach.</p>
+		</description>
+		<sheet>
+			<description>
+				If you hit an interdicted creature with a melee attack, you can mark them for death. The target has disadvantage on attack rolls that do not include you until the end of its next turn. While that creature is interdicted, it must make a DC{{marked for death illrigger}} Wisdom saving throw whenever it tries to leave your reach. On a failure, its speed instead becomes 0 until the start of its next turn. These effects last until it is no longer interdicted, you leave its reach, or it leaves your reach.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="marked for death illrigger:base" value="8" />
+			<stat name="marked for death illrigger:charisma" value="charisma:modifier" />
+			<stat name="marked for death illrigger:proficiency" value="proficiency" />
+			
+			<stat name="marked for death illrigger" value="telekinetic seal illrigger:base" />
+			<stat name="marked for death illrigger" value="telekinetic seal illrigger:charisma" />
+			<stat name="marked for death illrigger" value="telekinetic seal:proficiency" />
+		</rules>
+	</element>
+	<element name="He Is the Darkness" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HE_IS_THE_DARKNESS">
+		<description>
+			<p>At 10th level, while within 10 feet of an interdicted enemy, shadows envelop you and you gain the benefits of half cover.</p>
+		</description>
+		<sheet>
+			<description>
+				While within 10 feet of an interdicted enemy, shadows envelop you and you gain the benefits of half cover.
+			</description>
+		</sheet>
+	</element>
+	<element name="Hell's Assassin" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HELLS_ASSASSIN">
+		<description>
+			<p>At 18th level, your seals do 3d10 damage each, rather than 3d6.</p>
+		</description>
+		<sheet>
+			<description>
+				Your seals do 3d10 damage each, rather than 3d6.
+			</description>
+		</sheet>
+	</element>
+	
+	<!--Architect of Ruin-->
+	<element name="Architect of Ruin" type="Archetype" source="MCDM" id="ID_MCDM_ARCHETYPE_ILLRIGGER_ARCHITECT_OF_RUIN">
+		<supports>Diabolic Contract</supports>
+		<description>
+			<p>Asmodeus is the Lord of Acheron, the City of Fear. His illriggers scour the timescape collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other Lords of Hell is one of deception and propaganda.</p>
+			<P class="indent">Acheron’s illriggers work to make Hell’s enemies seem outnumbered and outmaneuvered. Half their strategy involves research and infiltration, the other half illusion and propaganda. When an Architect of Ruin finally confronts an enemy, the foe sees the illrigger’s forces as impossibly powerful, while their own allies betray them and their armies flee in fear.</P>
+			<h5 class="caption">ARCHITECT OF RUIN SPELLCASTING</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-10">Illrigger Level</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td></tr>
+				</thead>
+				<tr><td> 3rd</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>2</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>2</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>3</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>3</td><td>4</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>12th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>13th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td></tr>
+				<tr><td>16th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td></tr>
+				<tr><td>17th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td></tr>
+				<tr><td>18th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td></tr>
+				<tr><td>19th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td></tr>
+				<tr><td>20th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td></tr>
+			</table>
+			<h5 class="caption">TENETS OF RUIN</h5>
+			<p>Hell’s Architects swear an oath to Asmodeus when they join the Order of Desolation. The oath commits them to destroy Asmodeus’ enemies by causing fear and sowing distrust.</p>
+			<p class="indent"><strong><em>The Battlefield of the Mind.</em></strong> By the time my armies meet yours, you will be filled with terror and doubt your own strength. I won’t have to lift a finger to defeat you.</p>
+			<p class="indent"><strong><em>The Proper Secret.</em></strong> Once I know your secrets, I know what you fear.</p>
+			<p class="indent"><strong><em>Knowledge Is Power.</em></strong> Lore is as powerful as steel. I will learn every detail about my enemy so that, when I strike, I will know their every move. They will be checkmated before the game even begins.</p>
+			<p class="indent"><strong><em>Perception Is Reality.</em></strong> Illusion is also as powerful as steel. I will spread so many rumors about my own powers, your friends will desert you, your soldiers will quake. So what if none of it’s true? And some of it is…</p>
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INVOKE_AUTHORITY" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_SPELLCASTING" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_SPELLMASTER" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INSTANT_ILLUSION" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_BY_WILL_ALONE" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_ASMODEUSS_BLESSING" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_LORE_DEVIL" />
+			<div element="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INTERDICT_IMPROVEMENTS" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INVOKE_AUTHORITY" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_SPELLCASTING" level="3" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_SPELLMASTER" level="7" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INSTANT_ILLUSION" level="9" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_BY_WILL_ALONE" level="13" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_ASMODEUSS_BLESSING" level="17" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_LORE_DEVIL" level="20" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INTERDICT_IMPROVEMENTS" />
+		</rules>
+	</element>
+	<element name="Invoke Authority" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INVOKE_AUTHORITY">
+		<description>
+			<p>Asmodeus’ fighting mages must be able to thwart an enemy’s spells as well as their plans.</p>
+			<p class="indent"><b><i>Invoke Authority: Veteran of Sorcery</i></b> As a reaction to failing a saving throw against a spell, you can choose to succeed instead.</p>
+			<p class="indent"><b><i>Invoke Authority: Spellbreaker</i></b> You call on Asmodeus’ authority to protect you from enemy magic. Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, you are unaffected. On a 6, your are unaffected and the effect is reflected back at the caster as though it originated from you, turning the caster into the target.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INVOKE_AUTHORITY_VETERAN_OF_SORCERY" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY_SPELLBREAKER" />
+		</rules>
+	</element>
+	<element name="Invoke Authority: Veteran of Sorcery" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INVOKE_AUTHORITY_VETERAN_OF_SORCERY">
+		<description>
+			<p>As a reaction to failing a saving throw against a spell, you can choose to succeed instead.</p>
+		</description>
+		<sheet action="Reaction" alt="Infernal Surge" usage="Invoke Authority">
+			<description>
+				When you fail a saving throw against a spell, you can choose to succeed instead.
+			</description>
+		</sheet>
+	</element>
+	<element name="Invoke Authority: Spellbreaker" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_PAINKILLER_INVOKE_AUTHORITY_SPELLBREAKER">
+		<description>
+			<p>You call on Asmodeus’ authority to protect you from enemy magic. Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, you are unaffected. On a 6, your are unaffected and the effect is reflected back at the caster as though it originated from you, turning the caster into the target.</p>
+		</description>
+		<sheet alt="Infernal Surge" usage="Invoke Authority">
+			<description>Any time you are targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, you are unaffected. On a 6, your are unaffected and the effect is reflected back at the caster as though it originated from you, turning the caster into the target.</description>
+		</sheet>
+	</element>
+	<element name="Spellcasting" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_SPELLCASTING">
+		<description>
+			<p>When Asmodeus accepts you as an Architect of Ruin, you gain access to his infernal power and learn to access divine magic to cast illrigger spells.</p>
+			<h5>CANTRIPS</h5> 
+			<p>You learn two cantrips of your choice from the illrigger spell list. At 8th level, you learn an additional cantrip.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Architect of Ruin Spellcasting table shows how many spell slots you have. To cast one of these spells, you must expend a slot of the spell’s level or higher. When you finish a long rest, you regain all expended spell slots.</p>
+			<h5>Spells Known of 1st Level and Higher.</h5> 
+			<p>You prepare the list of illrigger spells that are available for you to cast, choosing from the illrigger spell list. When you do so, choose a number of illrigger spells equal to your Charisma modifier + half your illrigger level (rounded down), minimum of one spell. The spells must be of a level for which you have spell slots.</p>
+			<p class="indent">For example, if you are a 5th-level illrigger, you have three 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level in any combination. If you prepare the 1st-level spell Hell’s lash, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of illrigger spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+			<h5>Spellcasting Ability.</h5> 
+			<p>Charisma is your spellcasting ability for your illrigger spells, since your power derives from your ability to command the attention of your patron archdevil. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for an illrigger spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+			</center>
+		</description>
+		<sheet display="false">
+			<description>You have the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Illrigger" ability="Charisma" prepare="true">
+			<list known="true">Illrigger</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<stat name="illrigger:spellcasting:slots:1" value="2" level="3" />
+			<stat name="illrigger:spellcasting:slots:1" value="1" level="4" />
+			<stat name="illrigger:spellcasting:slots:1" value="1" level="7" />
+			<stat name="illrigger:spellcasting:slots:2" value="2" level="5" />
+			<stat name="illrigger:spellcasting:slots:2" value="1" level="8" />
+			<stat name="illrigger:spellcasting:slots:3" value="2" level="7" />
+			<stat name="illrigger:spellcasting:slots:3" value="1" level="10" />
+			<stat name="illrigger:spellcasting:slots:4" value="1" level="9" />
+			<stat name="illrigger:spellcasting:slots:4" value="1" level="10" />
+			<stat name="illrigger:spellcasting:slots:4" value="1" level="11" />
+			<stat name="illrigger:spellcasting:slots:5" value="1" level="11" />
+			<stat name="illrigger:spellcasting:slots:5" value="1" level="19" />
+			<stat name="illrigger:spellcasting:slots:6" value="1" level="15" />
+			
+			<select type="Spell" name="Cantrip (Illrigger)" supports="$(spellcasting:list),0" level="1" number="2" spellcasting="Illrigger" />
+			<select type="Spell" name="Cantrip (Illrigger)" supports="$(spellcasting:list),0" level="8" spellcasting="Illrigger"/>
+		</rules>
+	</element>
+	<element name="Spellmaster" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_SPELLMASTER">
+		<description>
+			<p>Starting at 7th level, you have advantage on Constitution saving throws that you make to maintain your concentration on a spell.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.</description>
+		</sheet>
+	</element>
+	<element name="Instant Illusion" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INSTANT_ILLUSION">
+		<description>
+			<p>Starting at 9th level, when you place a seal on an enemy, you can, as a reaction, cast an illusion spell that normally has a casting time of 1 action.</p>
+		</description>
+		<sheet>
+			<description>
+				When you place a seal on an enemy, you can, as a reaction, cast an illusion spell that normally has a casting time of 1 action.
+			</description>
+		</sheet>
+	</element>
+	<element name="By Will Alone" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_BY_WILL_ALONE">
+		<description>
+			At 13th level, your illusion spells no longer require any components. When casting an illusion spell, there is no indication you are casting the spell. You can cast illusion spells while blind, while gagged, and with your hands bound. 
+		</description>
+		<sheet>
+			<description>
+				Your illusion spells no longer require any components. When casting an illusion spell, there is no indication you are casting the spell. You can cast illusion spells while blind, while gagged, and with your hands bound. 
+			</description>
+		</sheet>
+	</element>
+	<element name="Asmodeus's Blessing" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_ASMODEUSS_BLESSING">
+		<description>
+			At 17th level, you can, as a reaction to taking damage, cast fire shield. The shield is always a warm shield, deals fire damage, and deals 4d8 damage instead of 2d8. You cannot use this feature again until you complete a long rest.
+		</description>
+		<sheet action="Reaction">
+			<description>
+				When you take damage, you can cast fire shield. The shield is always a warm shield, deals fire damage, and deals 4d8 damage instead of 2d8. You cannot use this feature again until you complete a long rest.
+			</description>
+		</sheet>
+	</element>
+	<element name="Lore Devil" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_LORE_DEVIL">
+		<description>
+			<p>Starting at 20th level, as an action, you can become a lore devil for 1 minute. You gain three extra seals. Enemies with seals on them automatically fail their saving throws against your spells. You emanate an interference aura, forcing any creature within 60 feet trying to cast a spell to first succeed at a DC 18 Intelligence saving throw or else the spell fails and they lose the spell slot.</p> 
+			<p class="indent">Whenever you use a spell slot to cast a spell, there is a 25% chance the spell works normally but you do not lose the spell slot.</p>
+			<p class="indent">While in this form, your type becomes fiend (devil) and Hell is your home plane. You cannot use this feature again until you complete a long rest. At their discretion, your GM may choose one codexand grant you limited use of one of the abilities from that codex.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>
+				You become a lore devil for 1 minute. You gain three extra seals. Enemies with seals on them automatically fail their saving throws against your spells. You emanate an interference aura, forcing any creature within 60 feet trying to cast a spell to first succeed at a DC 18 Intelligence saving throw or else the spell fails and they lose the spell slot. 
+				Whenever you use a spell slot to cast a spell, there is a 25% chance the spell works normally but you do not lose the spell slot.
+				While in this form, your type becomes fiend (devil) and Hell is your home plane. You cannot use this feature again until you complete a long rest. At their discretion, your GM may choose one codexand grant you limited use of one of the abilities from that codex.
+			</description>
+		</sheet>
+	</element>
+	<element name="Interdict Improvements" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_ARCHITECT_OF_RUIN_INTERDICT_IMPROVEMENTS">
+		<description>
+			<p>As your Architect of Ruin levels up, Asmodeus’ interdiction carries more power.</p>
+			<p class="indent"><b><i>Hellmage.</i></b> Starting at 6th level, when you cast an illusion spell, you may choose to expend an unused seal instead of a spell slot.</p>
+			<p class="indent"><b><i>Submit!</i></b> Starting at 10th level, as a reaction when you cast a spell, you can consume a seal on an interdicted creature to impose disadvantage on their saving throws against the spell.</p>
+			<p class="indent"><b><i>Magic Resistance.</i></b> Starting at 18th level, you gain advantage on saving throws against spells and magical effects from interdicted creatures.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HELLMAGE" level="6" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_SUBMIT" level="10" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_MAGIC_RESISTANCE" level="18" />
+		</rules>
+	</element>
+	<element name="Hellmage" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_HELLMAGE">
+		<description>
+			<p> Starting at 6th level, when you cast an illusion spell, you may choose to expend an unused seal instead of a spell slot.</p>
+		</description>
+		<sheet>
+			<description>
+				When you cast an illusion spell, you may choose to expend an unused seal instead of a spell slot.
+			</description>
+		</sheet>
+	</element>
+	<element name="Submit!" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_SUBMIT">
+		<description>
+			<p>Starting at 10th level, as a reaction when you cast a spell, you can consume a seal on an interdicted creature to impose disadvantage on their saving throws against the spell.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>
+				When you cast a spell, you can consume a seal on an interdicted creature to impose disadvantage on their saving throws against the spell.
+			</description>
+		</sheet>
+	</element>
+	<element name="Magic Resistance" type="Archetype Feature" source="MCDM" id="ID_MCDM_ARCHETYPE_FEATURE_ILLRIGGER_INTERDICT_IMPROVEMENTS_MAGIC_RESISTANCE">
+		<description>
+			<p>Starting at 18th level, you gain advantage on saving throws against spells and magical effects from interdicted creatures.</p>
+		</description>
+		<sheet>
+			<description>
+				You have advantage on saving throws against spells and magical effects from interdicted creatures.
+			</description>
+		</sheet>
+	</element>
+</elements>
