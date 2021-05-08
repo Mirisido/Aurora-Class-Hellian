@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Illrigger</name>
+		<description>Sorcerer from the Player’s Handbook.</description>
+		<author>MCDM</author>
+		<update version="2.4.0">
+			<file name="class-illrigger.xml" url="https://raw.githubusercontent.com/Mirisido/Aurora-Class-Hellian/main/Illrigger/class-illrigger.xml" />
+		</update>
+	</info>
+	
 	<element name="Illrigger" type="Class" source="MCDM" id="ID_MCDM_CLASS_ILLRIGGER">
         <description>
 			<p>The archdevils who rule the Seven Cities of Hell scheme and plot endlessly, eternally. Each seeks to bring the others to heel. To ascend to the Throne of Hell, unite the seven cities and every infernal thing that lives there, and lead an infinite army of devils across the timescape until all worlds burn.</p>
