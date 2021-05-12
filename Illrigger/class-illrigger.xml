@@ -113,7 +113,7 @@
         </rules>
 		<multiclass id="ID_MCDM_MULTICLASS_ILLRIGGER">
             <prerequisite>Charisma 13 and Strength 13 or Dexterity 13</prerequisite>
-            <requirements>([str:13]||[dex:13]),[chr:13],!ID_DMSG_MMBH_CLASS_ILLRIGGER,!ID_DMSG_MMBH_MULTICLASS_ILLRIGGER</requirements>
+            <requirements>([str:13]||[dex:13]),[cha:13]</requirements>
             <setters>
                 <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons</set>
             </setters>
